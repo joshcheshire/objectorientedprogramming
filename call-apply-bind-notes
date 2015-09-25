@@ -1,0 +1,25 @@
+9/22 ---
+on a free standing function, 'this ' refers to the window
+
+- On a function that is attached to an object(i.e a method) this refers to the host object
+
+--In JS, functions are objects, so they can have their own methods.
+		3 examples are Call, Apply and Bind
+
+		Apply is a little better, but call is simpler, easier to write and read.
+		Apply is more vesatile than call, anything call can do , apply can do but it doesnt go the other way
+
+--CALL AND APPLY call the original fx, and return whatever the fx returns
+--BIND returns a new fx with its 'this' context permanently bound
+
+-- Math.max
+
+9/24---
+
+
+Inheritance Reason to use inheritance in your code:Write less code
+DRY- Dont repeat yourself
+
+
+Name Spacing and privacy -=-=-=-
+	Privacy is selecting what the user or programmer may have access to
